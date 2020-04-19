@@ -7,6 +7,13 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/sistema-saude
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      retries: 10
+      bootstrap-servers: ${spring.kafka.bootstrap-servers}
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
   jackson:
     serialization:
       WRITE_DATES_AS_TIMESTAMPS: false
