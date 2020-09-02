@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-public class Covid19SyncGatewayImpl implements Covid19AsyncGateway {
+public class Covid19AsyncGatewayImpl implements Covid19AsyncGateway {
 
   private final KafkaTemplate<String, String> kafkaTemplate;
 
