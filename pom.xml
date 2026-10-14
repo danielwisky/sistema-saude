@@ -13,7 +13,7 @@
     <encoding>UTF-8</encoding>
     <java.version>13</java.version>
     <spring-boot.version>2.6.6</spring-boot.version>
-    <springfox.swagger.version>2.9.2</springfox.swagger.version>
+    <springfox.swagger.version>2.10.0</springfox.swagger.version>
     <jackson-datatype-jsr310.version>2.13.1</jackson-datatype-jsr310.version>
     <lombok.version>1.18.22</lombok.version>
   </properties>
